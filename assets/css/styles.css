@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root {
+  --body-color: #1e0400; 
+  --body-background-image: linear-gradient(180deg, #b41c00 , #1e0400 );
+  --text-color: #ffffff;
+  --body-font: "Great Vibes", cursive;
+}
+
+body {
+  background-color: var(--body-color);
+  background-image: var(--body-background-image);
+  background-attachment:fixed;
+  color: var(--text-color);
+  font-family: var(--body-font);
+}
+
+.glow {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  color: white;
+ }
